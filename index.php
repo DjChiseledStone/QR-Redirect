@@ -1,9 +1,11 @@
 <html>
   <body>
+    <?php
   <form name="qr-redirect">
     <input type="text" id="url" name="url">
     <input type="submit">
   </form>
+    ?>
   <p>Current Link: <span id="linkName"></span></p>
 
   <a target="_new" href="https://qredirect.blogspot.com/2021/08/blog-post.html#redirect">Redirect</a>
