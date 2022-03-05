@@ -1,7 +1,7 @@
 <html>
   <body>
     <?php
-  <form name="qr-redirect">
+  <form name="qr-redirect" method="post">
     <input type="text" id="url" name="url">
     <input type="submit">
   </form>
